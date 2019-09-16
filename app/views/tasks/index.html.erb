@@ -7,7 +7,7 @@
     <li>
         <%= link_to task.id, task %>
         
-        <%= task.title %>
+        <%= task.status %>
  &gt; 
         
         <%= task.content %>
@@ -17,5 +17,6 @@
     
     <% end %>
 </ul>
+
 
 <%= link_to '新規タスクの投稿', new_task_path %>
